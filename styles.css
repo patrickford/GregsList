@@ -1,6 +1,5 @@
 .navbar {
   background-color: grey;
-  display: inline-block;
 }
 
 .navitem {
@@ -10,14 +9,31 @@
 }
 
 .pagination {
+  margin-top: 20px;
   border: 1px solid black;
   display: inline-block;
+  height: 30px;
+}
+
+.prev, .next {
+  width: 100px;
+}
+
+.next {
+  margin-left: -5px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px; 
+}
+
+.pages {
+  width: 300px;
+  margin-left: -5px;
 }
 
 .submit {
   background-image: url("./magnifying-glass.png");
-  height: 60px;
-  width: 60px;
+  height: 30px;
+  width: 30px;
 }
 
 .date, .location {
